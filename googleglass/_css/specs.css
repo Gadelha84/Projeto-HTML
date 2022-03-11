@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+section#conteudo {
+    width: 1000px;
+    margin: auto;
+}
+
+iframe#frame-spec {
+    width: 390px;
+    height: 280px;
+    border: none;
+    overflow: hidden;
+}
+
+/*A linha abaixo foi incluida afim de mostrar as tecnicas de estilização em CSS, mas como não executa o resultado buscado em algumas versões de navegadores, foi adicionado o comando obsoleto scrolling="no", diretamente no documento spects.html*/
+iframe#frame-spec::-webkit-scrollbar {
+    display: none;
+}
